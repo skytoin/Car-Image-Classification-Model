@@ -11,6 +11,12 @@ instead of exterior. Some of these pictures I deleted or edited some, especially
 different class I had to classify. Then I decided to add  11,000 more photos for training. Images were taken from the Internet 
 car market. For augmentation I used the albumentations library. This library gives more opportunities for augmentation of pictures.
 
+I continued to experiment with the Xception network. I began the experimenting with optimizer and learning rate selection.
+After number of experiments I selected Adam as optimimizer and 0.0001 as learning rate. I experimented with a method that
+helps to find a good learning rate range. The method is training the model on a changing learning rate, then graph the loss 
+vs learning rate and select ranges with highest slope. I tried to train model with cyclic learning rate, but I didn't like
+the results.
+
 
 
 
