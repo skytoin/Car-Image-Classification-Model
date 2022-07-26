@@ -39,5 +39,8 @@ The first 4 layers of model are not retrained, the size of the photos for traini
 learning rate 0.0001 for the first 12 epochs, and then additional training for two epochs with a learning rate of 0.00009. This
 model achieved 97.1% accuracy on test images.
 
+The final step was to retrain the model based on EfficientNetV2M additionally with test images. Since I didn't have labels for them
+I used the labels I got from the last time I trained the model. After training the model with test images I got the 97.673% accuracy.
+
 
 
