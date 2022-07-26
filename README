@@ -1,1 +1,4 @@
-1
+The goal of this project is to build a classification model that can classify 10 different car models.
+Approximately 15,500 images of vehicles  were initially provided for training this model.
+Images of 10 car models are distributed equally in the model folders. Final model testing
+was done on completely separate image folder,  the number of testing images is 6675.
