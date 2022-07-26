@@ -6,6 +6,11 @@ was done on completely separate image folder,  the number of testing images is 6
 The base model for the project is built on Xception model. After training it was providing 92% 
 prediction accuracy for car model classification. The goal was  to improve this result.
 
+I started with image observation. I found some images were very narrow, very dark, some photos of the interior of the car 
+instead of exterior. Some of these pictures I deleted or edited some, especially if the photo contained several cars from 
+different class I had to classify. Then I decided to add  11,000 more photos for training. Images were taken from the Internet 
+car market. For augmentation I used the albumentations library. This library gives more opportunities for augmentation of pictures.
+
 
 
 
