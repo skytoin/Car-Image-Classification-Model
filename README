@@ -24,5 +24,12 @@ After some number of trials I selected 512 Dense layer with regularization l2, a
 dense layer with 10 neurons and activation softmax.
 
 
+I tuned couple of Adam's parameters and beta_1 parameter with 0.87 value was getting me better result. I trained my model based on 
+Xception for 10 epoches with image size 224 by 224. Additionaly after 10 epoches, I trained model for 2 epoches with image size
+280 by 280. The final result for this model was around 96.4 percent accuracy. After that I decided to build another model
+based on different image net.
+
+
+
 
 
