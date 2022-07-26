@@ -17,6 +17,12 @@ helps to find a good learning rate range. The method is training the model on a 
 vs learning rate and select ranges with highest slope. I tried to train model with cyclic learning rate, but I didn't like
 the results.
 
+Then I experimented with layers. In the beginning I retrained all layers of Xception net. Then I decided not to train some
+layers. Especially first layers because they containe basic features for image recognition. The best result for my task I got
+by not training first 4 layers of Xception net. I deleted Xception's top and experiments with building the top for my problem.
+After some number of trials I selected 512 Dense layer with regularization l2, activation relu, drop out rate 0.5 and another 
+dense layer with 10 neurons and activation softmax.
+
 
 
 
